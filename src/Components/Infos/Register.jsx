@@ -25,7 +25,7 @@ const Register = () => {
       <img
           src="//ssl.gstatic.com/accounts/ui/avatar_2x.png"
           alt="profile-img"
-          className="rounded-full mx-auto w-[150px] mb-6 "
+          className="rounded-full mx-auto w-[80px] mb-6 "
         />          
         <form className="mb-4" action="/" method="">
         <div className="mb-4 md:w-full">
@@ -52,7 +52,7 @@ const Register = () => {
               {email && ( 
               <div className="ml-1">
                   <div className="">
-                        <small className={validEmail ?'text-[#30e730] ' : 'text-[#ff2d2d] ' } > Email is not valid </small>
+                        <small className={validEmail ?'text-[#30e730] ' : 'text-[#ff2d2d] ' } > Email valid </small>
                   </div>
               </div>)}
           </div>
