@@ -21,7 +21,7 @@ const Register = () => {
 
  <div className="flex items-center h-full w-full my-4">
       <div className="w-full bg-white rounded shadow-lg p-8 m-4 md:max-w-sm md:mx-auto">
-      <span className="block w-full text-xl uppercase font-bold  text-center pb-8 text-[#289672]">Register</span> 
+      <span className="block w-full text-xl uppercase font-bold  text-center pb-8 text-[#00df9a]">Register</span> 
       <img
           src="//ssl.gstatic.com/accounts/ui/avatar_2x.png"
           alt="profile-img"

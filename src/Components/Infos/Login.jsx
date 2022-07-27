@@ -7,7 +7,7 @@ const Login = () => {
 
   return (
       <div className="w-full h-full bg-white rounded shadow-lg p-8 m-4 md:max-w-sm md:mx-auto content-center ">
-        <span className="block w-full text-xl uppercase font-bold  text-center pb-8 text-[#289672]">
+        <span className="block w-full text-xl uppercase font-bold  text-center pb-8 text-[#00df9a]">
           Login
         </span>
         <img

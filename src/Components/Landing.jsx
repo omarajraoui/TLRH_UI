@@ -68,7 +68,7 @@ const Landing = () => {
     <div className='max-w-[1240px] mx-auto py-16 px-4 grid lg:grid-cols-3 gap-8 text-gray-300 ' id='contact'>
       <div>
         <h1 className='w-full text-3xl font-bold text-[#00df9a]'>TLRH.</h1>
-        <p className='py-4'>With its 2,000 employees through its various agencies, the SQLI group occupies a central position in the NTIC market. This broad base in terms of human resources requires computerization of all the practices implemented to administer, manage and structure these resources involved in the group's activity. ,SQLI is a company that favors networking and promotes the mobilization of its employees on cross-functional projects.This project has just concretized this conception of management, which allows the company on the one hand to involve its employees in the management of Human Resources with a centralized and purely administrative approach.</p>
+        <p className='py-4'>SQLI is a company that favors networking and promotes the mobilization of its employees on cross-functional projects.This project has just concretized this conception of management, which allows the company on the one hand to involve its employees in the management of Human Resources with a centralized and purely administrative approach.</p>
         <div className='flex justify-between md:w-[75%] md:mx-auto my-6'>
             <FaFacebookSquare size={30}  />
             <FaInstagram size={30} />
