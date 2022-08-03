@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState } from "react";
 import Login from './Infos/Login';
-import { BrowserRouter, Route, Routes,Link,useNavigate } from "react-router-dom";
+import {Link,useNavigate } from "react-router-dom";
 
 const Navbar = () => {
     const [navbar, setNavbar] = useState(false);
@@ -84,12 +84,12 @@ const Navbar = () => {
             >
                 Login
             </button>
-            <button
+            {/* <button
                 onClick={() =>{navigate("/register")}}
                 className="inline-block w-[120px] px-4 py-2 m-2 text-center text-gray-800 bg-white rounded-md shadow hover:bg-gray-100"
             >
                 Register
-            </button>
+            </button> */}
         </div>
             </div>
         </div>
@@ -101,12 +101,12 @@ const Navbar = () => {
             >
                 Login
             </button>
-            <button
+            {/* <button
             onClick={() =>{navigate("/register")}}
                 className="px-4 py-2 text-gray-800 bg-white rounded-md shadow hover:bg-gray-100"
             >
                 Register
-            </button>
+            </button> */}
         </div>
     </div>
 </nav>

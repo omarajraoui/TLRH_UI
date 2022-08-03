@@ -107,7 +107,7 @@ const Register = () => {
              
              
           </div>
-          {!name || !email || !password || !confirmpassword || !hasLowerChar || !hasNumber || !hasSixChar || !hasSpecialChar || !hasUpperChar ?  <button disabled  className="bg-gray-300 focus:outline-none  text-white uppercase text-sm font-semibold px-4 py-2 rounded">Login</button> :  <button className="bg-[#7ec0aa] hover:bg-[#289672] text-white uppercase text-sm font-semibold px-4 py-2 rounded">Register</button> }
+          {!name || !email || !password || !confirmpassword || !hasLowerChar || !hasNumber || !hasSixChar || !hasSpecialChar || !hasUpperChar ?  <button disabled  className="bg-gray-300 focus:outline-none  text-white uppercase text-sm font-semibold px-4 py-2 rounded">Register</button> :  <button className="bg-[#7ec0aa] hover:bg-[#289672] text-white uppercase text-sm font-semibold px-4 py-2 rounded">Register</button> }
         </form>
         <Link className='text-blue-700 text-center text-sm' to="/login"> Already have an Acount ?</Link>
         {console.log(name)}
